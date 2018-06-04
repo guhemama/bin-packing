@@ -1,0 +1,21 @@
+{
+    "name": "perpetual-space/bin-packing",
+    "description": "Bin packing implementation in PHP.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "Gustavo Henrique Mascarenhas Machado",
+            "email": "guhemama@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PerpetualSpace\\": "src/PerpetualSpace/"
+        }
+    },
+    "require": {}
+}
