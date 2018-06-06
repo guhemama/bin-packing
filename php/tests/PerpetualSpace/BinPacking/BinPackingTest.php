@@ -21,6 +21,7 @@ class BinPackingTest extends TestCase
         $this->assertEquals(1, count($binPacking->pack([new Item(5)])));
 
         // Many items
-        $this->assertEquals(1, count($binPacking->pack([new Item(5), new Item(20), new Item(49)])));
+        $packedItems = $binPacking->pack([new Item(5), new Item(20), new Item(49)]);
+        $this->assertEquals(1, count($packedItems));
     }
 }

@@ -33,7 +33,7 @@ class BinPacking
      */
     public function pack(array $items): array
     {
-        // Sort in ascending order by weight
+        // Sort in descending order by weight
         usort($items, function($item1, $item2) {
             return $item2->getWeight() - $item1->getWeight();
         });
